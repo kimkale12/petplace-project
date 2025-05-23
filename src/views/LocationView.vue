@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     initMap() {
-      const location = { lat: 37.4957184, lng: 127.0301516 };
+      const location = { lat: 00, lng: 00 };
       const map = new window.google.maps.Map(document.getElementById('map'), {
         zoom: 17,
         center: location,
