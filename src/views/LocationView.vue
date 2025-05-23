@@ -25,7 +25,7 @@ export default {
     if (!window.google || !window.google.maps) {
       const script = document.createElement('script');
       script.src =
-        'https://maps.googleapis.com/maps/api/js?key=AIzaSyDTFfU_XhrUPJFC4j30AAzXE2mUnX65kVY&callback=initMap';
+        'https://maps.googleapis.com/maps/api/js?key=?&callback=initMap';
       script.async = true;
       window.initMap = this.initMap;
       document.head.appendChild(script);
